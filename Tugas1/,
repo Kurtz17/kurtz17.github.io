@@ -1,1 +1,84 @@
 <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body style="
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+">
+    <div style="
+        text-align: center; 
+        background-color: #fff; 
+        padding: 25px; 
+        border-radius: 12px; 
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+        width: 100%; 
+        max-width: 600px;
+    ">
+        <h1 style="
+            margin-bottom: 20px; 
+            color: #333;
+        ">Biodata</h1>
+        <img src="https://media.unpad.ac.id/photo/mahasiswa/140810/2023/140810230014.JPG" alt="Foto" style="
+            margin: 20px 0; 
+            border-radius: 12px; 
+            width: 200px; 
+            height: auto;
+        ">
+        <p style="
+            margin: 10px 0; 
+            color: #555;
+        "><strong>NPM:</strong> 140810230014</p>
+        <p style="
+            margin: 10px 0; 
+            color: #555;
+        "><strong>Nama:</strong> Muhammad Zahran Muntazar</p>
+        <p style="
+            margin: 10px 0; 
+            color: #555;
+        "><strong>Alamat:</strong> Jl Mutumanikam No 15 Kec. Lengkong Kel. Cijagra Kota Bandung</p>
+        <h2 style="
+            margin: 10px 0; 
+            color: #555;
+        ">Hobi:</h2>
+        <ul style="
+            list-style-type: none; 
+            padding: 0; 
+            margin: 10px 0; 
+            color: #555;
+        ">
+            <li style="
+                margin-bottom: 5px;
+            ">Merakit model kit</li>
+            <li style="
+                margin-bottom: 5px;
+            ">Membaca komik</li>
+            <li style="
+                margin-bottom: 5px;
+            ">Bermain game</li>
+        </ul>
+        <p>
+            <a href="https://www.unpad.ac.id" target="_blank" style="
+                text-decoration: none; 
+                background-color: #ffeb3b; 
+                color: #333; 
+                padding: 12px 30px; 
+                border-radius: 25px; 
+                display: inline-block; 
+                margin-top: 20px; 
+                font-weight: bold; 
+                transition: all 0.3s ease; 
+                box-shadow: 0 4px 15px rgba(255, 235, 59, 0.3);
+            ">Link Universitas</a>
+        </p>
+    </div>
+</body>
+</html>
