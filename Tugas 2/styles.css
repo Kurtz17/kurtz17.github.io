@@ -3,9 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 30px 30px 30px 40px; /* Top: 30px, Right: 30px, Bottom: 30px, Left: 40px */
+    margin: 30px 30px 30px 40px; 
     font-family: Arial, sans-serif;
-    background-color: #fff9c4; /* Background kuning muda */
+    background-color: #fff9c4;
 }
 
 .container {
@@ -73,7 +73,6 @@ strong {
     box-shadow: 0 4px 15px rgba(253, 216, 53, 0.5);
 }
 
-/* Style untuk tabel biodata */
 .biodata-table {
     width: 100%;
     margin-top: 20px;
@@ -96,5 +95,5 @@ strong {
 
 .biodata-table li {
     margin-bottom: 5px;
-    color: #333; /* Warna tulisan dalam list tabel berwarna biru */
+    color: #333; 
 }
