@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 30px 30px 30px 40px; 
+    font-family: Arial, sans-serif;
+    background-color: #fff9c4;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.profile-img {
+    margin: 20px 0;
+    border-radius: 12px;
+    width: 200px;
+    height: auto;
+}
+
+p {
+    margin: 10px 0;
+    color: blue;
+}
+
+h2 {
+    margin: 10px 0;
+    color:blue;
+}
+
+hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: blue;
+}
+
+.hobbies-list li {
+    margin-bottom: 5px;
+}
+
+strong {
+    color: blue; 
+}
+
+.univ-link {
+    text-decoration: none;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 235, 59, 0.3);
+}
+
+.univ-link:hover {
+    background-color: #fdd835;
+    box-shadow: 0 4px 15px rgba(253, 216, 53, 0.5);
+}
+
+.biodata-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: #555;
+}
+
+.biodata-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: #555;
+}
+
+.biodata-table ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.biodata-table li {
+    margin-bottom: 5px;
+    color: #333; 
+}
